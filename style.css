@@ -2,11 +2,15 @@ h1{
     font-size: 50px
 
 }
+body{
+    margin: 0;
+}
 .orange-color{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -24,4 +28,13 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
